@@ -1,4 +1,4 @@
-apiversion: apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: k8s-static
@@ -11,7 +11,7 @@ spec:
   template:
     metadata:
       labels:
-        app: stativ
+        app: static
     spec:
       containers:
       - name: static
